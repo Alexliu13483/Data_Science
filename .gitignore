@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+.notebook_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Python virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Data and results
+results/
+*.tsv
+*.xls
+*.xlsx
+*.h5
+*.db
+*.sqlite
+*.parquet
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test and coverage outputs
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+.cache
+nosetests.xml
+pytest_cache/
+.pytest_cache/
+
+# Misc
+*.bak
+*.swp
+*.tmp
