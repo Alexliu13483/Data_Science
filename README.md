@@ -14,7 +14,7 @@ Welcome to the Data Science repository! This collection contains various project
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/Data_Science.git
+    git clone https://github.com/Alexliu13483/Data_Science.git
     ```
 2. Install dependencies:
     ```bash
