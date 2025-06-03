@@ -48,6 +48,6 @@ sns.relplot(x="curb_weight", y="price", data=df)
 # creates a scatter plot with a linear regression line for each category of fuel_type using Seaborn.
 # fuel_type 特徵的 MI 得分相當低，但從圖中可以看出，它清晰地區分了 horsepower 特徵中兩個趨勢不同的價格群體。
 # 這表明 fuel_type 具有交互效應，而且可能並非不重要。在根據 MI 得分判斷某個特徵不重要之前，
-# 最好先調查任何可能的交互效應——領域知識可以提供很多指導。
+# 最好先調查任何可能的交互效應 —— 專門領域的知識可以提供很多對資料的洞察想法。
 sns.lmplot(x="horsepower", y="price", hue="fuel_type", data=df)
 
