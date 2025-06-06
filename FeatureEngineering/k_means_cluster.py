@@ -101,6 +101,7 @@ sns.relplot(
 )
 
 score_dataset(X, y)
+plt.show()
 
 kmeans = KMeans(n_clusters=10, n_init=10, random_state=0)
 
@@ -113,4 +114,4 @@ X_cd = kmeans.fit_transform(X_scaled)
 X_cd = pd.DataFrame(X_cd, columns=[f"Centroid_{i}" for i in range(X_cd.shape[1])])
 X = X.join(X_cd)
 
-score_dataset(X, y)
+print(score_dataset(X, y))
